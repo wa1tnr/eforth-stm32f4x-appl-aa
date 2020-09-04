@@ -5,9 +5,17 @@
 
 `Target board:` **STM32F407 Discovery**
 
-### current: Fri Sep  4 14:48:33 UTC 2020
+### current: Fri Sep  4 16:19:40 UTC 2020
 
 #### NEWS
+
+##### Applications repository begun
+
+This (new) repository is meant to put some of the developed
+forth source code onto github.
+
+Included are routines to setup a second USART, in forth,
+and also to talk to the Lumex display (discussed elsewhere).
 
 ##### STM32F407 Discovery - primary target
 
