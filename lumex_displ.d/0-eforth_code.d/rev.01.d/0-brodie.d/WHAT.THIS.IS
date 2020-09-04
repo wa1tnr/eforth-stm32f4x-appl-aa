@@ -1,0 +1,15 @@
+Fri Sep  4 16:28:27 UTC 2020
+
+Current working directory, musings and code snips while
+working with _Thinking Forth_ example code.
+
+No attempt has been made to integrate what is already
+stored as TURNKEY on the working example target.
+
+The 'newchar>' word replaces the '_' Dr. Ting chose for
+non-printables, with the more traditional '.' (dot, 0x2E).
+
+The 'eflogo' word updates to specific eForth version,
+when telling the Lumex display what it is.
+
+END.
