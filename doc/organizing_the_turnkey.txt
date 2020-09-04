@@ -1,0 +1,9 @@
+organizing the turnkey
+
+The TURNKEY imaging system allows incremental development.
+
+However, it then becomes a bit complex, to trace what is
+exactly on the target board, as its current TURNKEY image,
+as compared with what is held as source code, on the host
+PC used to develop the forth code (mainly by providing full
+text editor environment, and ASCII upload to the target).
