@@ -106,6 +106,21 @@ Switched to a new branch 'initial-dev'
 
  and the rest of what's seen here (now).
 
+**FOOTNOTES**
+
+  **04 SEP 2020**
+
+    No real effort was made to be cohesive, today.
+
+    This 'apps' repository is meant to somewhat deviate the
+    previous course held (long development, essentially
+    in private, where it does not need to be).
+
+    So, aspirationally, effort is now made to present what's
+    learned, where the public can benefit from it.
+
+    Again, not particularly cohesive .. just a beginning.
+
 
 **REFERENCES**
 
