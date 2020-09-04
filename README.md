@@ -1,12 +1,44 @@
 # eForth for STM32F407 Discovery board
 
 ## local studies by wa1tnr
+`Target board:` **Adafruit STM32F405 Express**
 
-Primary Target board:  STM32F407VGT6 Discovery
-other Target board:  Adafruit STM32F405 Express
+`Target board:` **STM32F407 Discovery**
 
+### current: Fri Sep  4 14:48:33 UTC 2020
 
-### Sat Jun 20 13:09:01 UTC 2020
+#### NEWS
+
+##### STM32F407 Discovery - primary target
+
+The STM32F407 Discovery was received in the post, from
+DigiKey, earlier in the year, and became the primary
+target for the program, as a result (needed to have
+the extra GPIO pins not available on the Adafruit
+target, which is otherwise suitable).
+
+##### Lumex 96x8 RGB matrix, 3mm pitch, supported.
+
+The Lumex display uses Hayes style 'AT' commands.
+
+The trick to messaging to the display is to do so
+continuously; if there's much of a delay, then the
+display will not accumulate the message - it will
+start over again at the left margin, after blanking
+the entire display.
+
+The Lumex display support was written entirely in Forth. ;)
+
+Including the setup for the second USART pin pair.
+
+Code that exists is either in a branch (not master)
+or hasn't even been uploaded to github.  Sorry. ;)
+
+That will change at some point; too much work was
+done without public commits.  Hard to separate out
+private code from public.
+
+### older: Sat Jun 20 13:09:01 UTC 2020
 
 Current effort:
 
@@ -16,10 +48,7 @@ Intent is to send messages to a Lumex 96x8 display,
 while retaining full dialogue with the target, in
 the eForth environment.
 
-The remainder of this README.md file has not been
-reviewed for current relevance (June 20, 2020).
-
-# - - - -
+### older: Tue Dec 17 22:00:36 UTC 2019
 
 from: doc/notes.txt
 
@@ -51,16 +80,29 @@ rename repository:
 
 Tue Dec 17 22:03:02 UTC 2019
 
+```bash
 ** initial-dev
   master
+```
 
+```bash
  $ git checkout -b initial-dev
+```
 Switched to a new branch 'initial-dev'
+```bash
  $ mkdir doc
  $ cd doc
  $ rvim -n notes.txt
  $ git branch >> notes.txt
+```
 
  and the rest of what's seen here (now).
+
+
+**REFERENCES**
+
+   **Markdown**:
+
+   [https://guides.github.com/features/mastering-markdown/]
 
 END.
