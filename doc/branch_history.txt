@@ -1,0 +1,8 @@
+Repository: eforth-stm32f4x-appl-aa
+
+New repository for 04 September 2020
+
+Based on prior repository of a similar name
+   eforth-stm32f4x-a  (or somesuch)
+
+Intent is to get some of the recent work onto github.
